@@ -1,0 +1,4 @@
+//Actions
+export const SEND_NAME_REQUEST = 'SEND_NAME_REQUEST';
+export const SEND_NAME_SUCCESS = 'SEND_NAME_SUCCESS';
+export const SEND_NAME_ERROR = 'SEND_NAME_ERROR';

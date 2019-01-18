@@ -1,0 +1,31 @@
+.control-panel {
+    margin-top: 50px;
+
+    .form-group {
+        display: flex;
+        flex-direction: row;
+    
+        .add-button {
+            margin-left: 5px;
+        }
+    }
+    
+    .spinner {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        margin-top: 1rem;
+        animation-name: spin;
+        animation-duration: 1s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+        font-size: 20px;
+        color: grey;
+    
+        @keyframes spin {
+            from {transform:rotate(0deg);}
+            to {transform:rotate(360deg);}
+        }
+    }
+}
